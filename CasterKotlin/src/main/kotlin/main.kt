@@ -169,10 +169,37 @@ fun main() {
 
     // ---------------------------------
 
-    var x = Person("Donn")
-    var y = Person("Donn")
+   // var x = Person("Donn")
+  //  var y = Person("Donn")
 
-    println(x !== y)
-}
+ ///   println(x !== y)
+
 
 class  Person(var name: String)
+
+// ---------------------------------
+
+var firstName:String = "Donn"
+val length = firstName.length
+
+var lastName :String? = "Felker"
+var length2 = lastName?.length // null,6
+
+var length4 = lastName?.substring(0,2)?.length
+
+var lenfth5 = lastName?.substring(0,5)?.drop(2)?.substring(2,3)?.length
+
+/* if(lastName != null && lastName.length >1){
+    val legth5 = lastName.length
+}*/
+
+
+    var lName:String? = "Felker"
+
+    var len:Int = if(lName != null) lName.length else 0
+
+    val len2: Int = lastName?.substring(0,2)?.length ?: 0
+
+    
+
+}
