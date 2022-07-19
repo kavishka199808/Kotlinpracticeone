@@ -105,20 +105,27 @@ fun main() {
     println(isBlank)
 
 
+    // ---------------------------------
+
+    var calories = 1400
+    if (calories>2000){
+        println("you've consumed all your calories for the day")
+    }else if (calories>1200){
+        println("You have some room for snacks")
+    }else{
+        println("You still have some calories left!")
+    }
 
 
+    val a = 9
+    if (a>10)
+        println("Tha age is greater than 10")
+        println("Hello there")
 
 
-
-
-
-
-
-
-
-
-
-
+    val b = 11
+    if (b>10) println("Tha age is greater than 10")
+    println("Hello there")
 
 
 
