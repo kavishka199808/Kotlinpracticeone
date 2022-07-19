@@ -200,6 +200,6 @@ var lenfth5 = lastName?.substring(0,5)?.drop(2)?.substring(2,3)?.length
 
     val len2: Int = lastName?.substring(0,2)?.length ?: 0
 
-    
+
 
 }
