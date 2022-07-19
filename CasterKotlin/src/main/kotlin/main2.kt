@@ -46,3 +46,23 @@ fun sayHiii():String{
     return 32.toString()
 }
 
+
+//---------------------------------------
+fun main6(){
+   sayHiAndBy()
+
+}
+fun sayHiAndBy(){
+    println("Hello")
+
+    fun sayBye(){
+        println("Bye")
+
+        fun moo(){
+            println("moo")
+        }
+        moo()
+    }
+    sayBye()
+}
+
