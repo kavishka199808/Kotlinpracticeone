@@ -89,6 +89,21 @@ fun main() {
     var t2 = 23
     println("Hello $t1,your age is $t2 and your name is ${t1.length} characters long. ")
 
+    // ---------------------------------
+
+    var isBlank: Boolean = false
+    println(isBlank)
+
+    println(isBlank.not())
+
+    isBlank = "".isBlank()
+
+    println(isBlank)
+
+
+    isBlank = "kavishka".isBlank()
+    println(isBlank)
+
 
 
 
