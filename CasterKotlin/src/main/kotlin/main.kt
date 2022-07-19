@@ -36,7 +36,30 @@ fun main() {
 
     var Name:String = "Kavishka Dilshan"
     var num1:Int = 32
-    
+
+    val myBite:Byte = 8 // 8-bit signed integer
+    val myShort:Short = 16 // 16bit
+    val myInt : Int = 32 //32 bit
+    val myLong :Long = 64 //64 bit
+
+    val myFloat:Float = 32.00F// 32bit floating point number
+    var myDouble:Double = 64.00 // 64-bit floting poin number
+
+     println(myBite.toDouble()::class)
+
+    val bigLong:Long = 1000_000_000
+    println(bigLong)
+
+    var newInt = myInt.times(12)
+    println(newInt)
+
+
+
+
+
+
+
+
 
 
 
