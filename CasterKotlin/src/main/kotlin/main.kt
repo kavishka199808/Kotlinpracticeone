@@ -1,5 +1,9 @@
 fun main() {
+
+   // ---------------------------------
     println("Hello World")
+
+    // ---------------------------------
 
     var fullName = "Kavishka Dislshan"
     println(fullName)
@@ -15,4 +19,17 @@ fun main() {
     var age = 30
     age = 32
     println(age)
+
+    // ---------------------------------
+
+    val fulName = "Kavishka Dilshan"
+    println(fullName)
+
+    val agee = 32
+    println(agee)
+
+    
+
+
+
 }
