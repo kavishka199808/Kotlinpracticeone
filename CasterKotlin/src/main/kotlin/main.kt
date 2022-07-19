@@ -154,6 +154,21 @@ fun main() {
         println("Both items are False")
     }
 
+    // ---------------------------------
+
+    var name1 = "Donn"
+    var name2 = "Tushar"
+
+    println(name1.equals(name2))
+
+
+    var name3 = "Donn"
+    var name4 = "Tushar"
+
+    println(name3 == name4)
+
+    
+
 
 
 
