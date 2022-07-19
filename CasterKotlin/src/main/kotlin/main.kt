@@ -64,6 +64,35 @@ fun main() {
     val first = "Kavi"   //single  quote :char
     val c:Char = 'x'       //Double quote :String
 
+    // ---------------------------------
+
+    var message:String  = "Hello,\n My name is kavishka.\n How are you?"
+    println(message)
+
+    var message2:String = """
+        Hello,
+        my name is Kavishka Dilshan
+        How are you?
+    """.trimIndent()
+    println(message2)
+
+    var message3:String = """
+        Hello,
+        my name is Kavishka Dilshan
+        How are you?
+    """.replaceIndent("abc-|-")
+    println(message3)
+
+    var t1 = "kavishka"
+    println("Hello "+t1)
+
+    var t2 = 23
+    println("Hello $t1,your age is $t2 and your name is ${t1.length} characters long. ")
+
+
+
+
+
 
 
 
