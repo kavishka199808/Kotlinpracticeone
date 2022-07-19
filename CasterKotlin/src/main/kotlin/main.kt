@@ -167,14 +167,12 @@ fun main() {
 
     println(name3 == name4)
 
-    
+    // ---------------------------------
 
+    var x = Person("Donn")
+    var y = Person("Donn")
 
-
-
-
-
-
-
-
+    println(x !== y)
 }
+
+class  Person(var name: String)
