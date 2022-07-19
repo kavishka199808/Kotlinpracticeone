@@ -128,6 +128,36 @@ fun main() {
     println("Hello there")
 
 
+    // ---------------------------------
+
+    val myAge = 32
+    val yourAge = 32
+
+    val myName = "Donn"
+    val yourthName = "Tushar"
+
+    if( (myAge != yourAge) && (myName != yourthName) ){
+           println("Both items are True")
+    }else{
+        println("Both items are False")
+    }
+
+    val my1 = 32
+    val your1 = 32
+
+    val myN2 = "Donn"
+    val yourN2 = "Tushar"
+
+    if( (my1 != your1) || (myN2 != yourN2) || (myAge == myName.length)){
+        println("Both items are True")
+    }else{
+        println("Both items are False")
+    }
+
+
+
+
+
 
 
 
