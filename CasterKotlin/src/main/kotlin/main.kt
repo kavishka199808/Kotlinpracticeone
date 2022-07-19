@@ -28,7 +28,17 @@ fun main() {
     val agee = 32
     println(agee)
 
+
+    // ---------------------------------
+
+    val fullyName = "Kavishka Dilshan"
+    println(fullyName::class)
+
+    var Name:String = "Kavishka Dilshan"
+    var num1:Int = 32
     
+
+
 
 
 
