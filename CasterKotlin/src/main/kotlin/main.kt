@@ -55,6 +55,22 @@ fun main() {
 
 
 
+    // ---------------------------------
+
+    var n1:String = "Hello World"
+    println(n1.length)
+    println(n1.toLowerCase())
+
+    val first = "Kavi"   //single  quote :char
+    val c:Char = 'x'       //Double quote :String
+
+
+
+
+
+
+
+
 
 
 
